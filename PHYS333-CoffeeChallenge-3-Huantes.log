@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.18)  1 OCT 2019 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.18)  4 OCT 2019 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,6 +25,11 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
@@ -127,79 +132,180 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
-(./PHYS333-CoffeeChallenge-3-Huantes.aux)
-\openout1 = `PHYS333-CoffeeChallenge-3-Huantes.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
-\scratchbox=\box30
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count102
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count103
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count104
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count110
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count111
+\lst@currlwidth=\dimen118
+\lst@column=\count112
+\lst@pos=\count113
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count114
+\lst@lineno=\count115
+\lst@maxwidth=\dimen121
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count116
+\lst@skipnumbers=\count117
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./PHYS333-CoffeeChallenge-3-Huantes.aux)
+\openout1 = `PHYS333-CoffeeChallenge-3-Huantes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen122
+\scratchbox=\box32
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen123
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -212,43 +318,69 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+
+(./PHYS333-CoffeeChallenge-3-Huantes.out)
+(./PHYS333-CoffeeChallenge-3-Huantes.out)
+\@outlinefile=\write3
+\openout3 = `PHYS333-CoffeeChallenge-3-Huantes.out'.
+
+\c@lstlisting=\count125
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 12.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Overfull \hbox (3.89058pt too wide) in paragraph at lines 17--19
+Overfull \hbox (3.89058pt too wide) in paragraph at lines 20--22
 \OT1/cmr/m/n/12 time. We as-sumed that the room hold-
  []
 
 
-Overfull \hbox (5.6206pt too wide) detected at line 21
-[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 r[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T \O
-MS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 r[]
-\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]
-\OT1/cmr/m/n/12 )
+Overfull \hbox (5.6206pt too wide) detected at line 24
+[][] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 r[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T 
+\OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 r
+[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T
+[]\OT1/cmr/m/n/12 )
  []
 
 
-Overfull \hbox (3.93826pt too wide) in paragraph at lines 21--23
+Overfull \hbox (4.65215pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/12 Unlike our pre-vi-ous chal-lenges, this
+ []
+
+
+Overfull \hbox (3.93826pt too wide) in paragraph at lines 26--27
 \OT1/cmr/m/n/12 with be-ing able to model dif-fer-ent cups
  []
 
 
-Overfull \hbox (9.48682pt too wide) in paragraph at lines 24--27
+Overfull \hbox (9.48682pt too wide) in paragraph at lines 28--31
 \OT1/cmr/m/n/12 lenge was cre-at-ing a pro-gram that could
  []
 
 
-Overfull \hbox (2.30217pt too wide) in paragraph at lines 24--27
+Overfull \hbox (2.30217pt too wide) in paragraph at lines 28--31
 \OT1/cmr/m/n/12 to cal-cu-late the 3 r co-ef-fi-cients in New-
  []
 
@@ -257,54 +389,736 @@ Overfull \hbox (2.30217pt too wide) in paragraph at lines 24--27
 
 
 ]
-<CodeSnippetCC2.png, id=14, 567.11874pt x 566.115pt>
+Overfull \hbox (3.28549pt too wide) in paragraph at lines 53--54
+\OT1/cmr/m/n/12 trans-fer co-ef-fi-cient be-tween cof-fee (wa-
+ []
+
+[2]
+<CodeSnippetCC2.png, id=54, 567.11874pt x 566.115pt>
 File: CodeSnippetCC2.png Graphic file (type png)
 <use CodeSnippetCC2.png>
-Package pdftex.def Info: CodeSnippetCC2.png  used on input line 37.
+Package pdftex.def Info: CodeSnippetCC2.png  used on input line 58.
 (pdftex.def)             Requested size: 190.0pt x 189.66049pt.
-<Challenge2Figure.png, id=16, 462.528pt x 346.896pt>
+<Challenge2Figure.png, id=56, 462.528pt x 346.896pt>
 File: Challenge2Figure.png Graphic file (type png)
 <use Challenge2Figure.png>
-Package pdftex.def Info: Challenge2Figure.png  used on input line 43.
+Package pdftex.def Info: Challenge2Figure.png  used on input line 65.
 (pdftex.def)             Requested size: 190.0pt x 142.49823pt.
- [2 <./CodeSnippetCC2.png>]
-Overfull \hbox (0.73969pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/12 fee and the sur-round-ings de-crease, the
+ [3 <./CodeSnippetCC2.png>]
+Overfull \hbox (4.58557pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 clear that I had reached a nat-u-ral stop-
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 73.
+
+(./WRITEUPcoffeeCup.py
+Overfull \hbox (197.74933pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (3.08966pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/12 rate at which the cof-fee cools de-creases
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][] 
  []
 
-[3 <./Challenge2Figure.png>] (./PHYS333-CoffeeChallenge-3-Huantes.aux) ) 
+
+Overfull \hbox (49.69958pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (796.99829pt too wide) in paragraph at lines 7--8
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.6496pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+
+Overfull \hbox (42.6496pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.99951pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (134.29944pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (275.2992pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.94952pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (106.09949pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (268.2492pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (176.59937pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (381.04901pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[4 <./Challenge2Figure.png>]
+Overfull \hbox (49.69958pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 29--30
+[][][][][][][]
+ []
+
+
+Overfull \hbox (162.49939pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 30--31
+[][][][][][][]
+ []
+
+
+Overfull \hbox (155.4494pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (148.39941pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (127.24945pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.0495pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (183.64935pt too wide) in paragraph at lines 36--38
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.59961pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (345.79907pt too wide) in paragraph at lines 40--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.59961pt too wide) in paragraph at lines 44--46
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (155.4494pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (782.89832pt too wide) in paragraph at lines 51--53
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][] 
+ []
+
+
+Overfull \hbox (14.44965pt too wide) in paragraph at lines 53--54
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (225.94928pt too wide) in paragraph at lines 54--56
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (35.59961pt too wide) in paragraph at lines 57--59
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (331.6991pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (134.29944pt too wide) in paragraph at lines 61--62
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (796.99829pt too wide) in paragraph at lines 62--63
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (106.09949pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (148.39941pt too wide) in paragraph at lines 70--72
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.59961pt too wide) in paragraph at lines 72--73
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.59961pt too wide) in paragraph at lines 73--74
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 74--75
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 75--76
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.44965pt too wide) in paragraph at lines 76--77
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.44965pt too wide) in paragraph at lines 77--79
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (761.74835pt too wide) in paragraph at lines 82--83
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (211.8493pt too wide) in paragraph at lines 91--92
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 92--93
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (197.74933pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (141.34943pt too wide) in paragraph at lines 95--96
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (514.99878pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.0495pt too wide) in paragraph at lines 97--98
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (162.49939pt too wide) in paragraph at lines 98--99
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (225.94928pt too wide) in paragraph at lines 99--100
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (247.09924pt too wide) in paragraph at lines 100--104
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[5]
+Overfull \hbox (289.39917pt too wide) in paragraph at lines 104--105
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+
+Overfull \hbox (373.99902pt too wide) in paragraph at lines 105--106
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (324.64911pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (867.49817pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (310.54913pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (211.8493pt too wide) in paragraph at lines 109--110
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (1078.9978pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (366.94904pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (176.59937pt too wide) in paragraph at lines 112--114
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.0495pt too wide) in paragraph at lines 115--116
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 116--118
+[][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (56.74957pt too wide) in paragraph at lines 116--118
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 119--120
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 120--122
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 122--123
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 123--124
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.34967pt too wide) in paragraph at lines 124--126
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (211.8493pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (148.39941pt too wide) in paragraph at lines 127--129
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 129--131
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (381.04901pt too wide) in paragraph at lines 131--132
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (451.54889pt too wide) in paragraph at lines 135--136
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (627.79858pt too wide) in paragraph at lines 136--137
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (106.09949pt too wide) in paragraph at lines 141--142
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (127.24945pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (211.8493pt too wide) in paragraph at lines 143--144
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (148.39941pt too wide) in paragraph at lines 144--145
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (268.2492pt too wide) in paragraph at lines 145--146
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (268.2492pt too wide) in paragraph at lines 146--147
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (409.24896pt too wide) in paragraph at lines 147--148
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (268.2492pt too wide) in paragraph at lines 148--149
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (465.64886pt too wide) in paragraph at lines 149--150
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.14948pt too wide) in paragraph at lines 150--151
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.14948pt too wide) in paragraph at lines 151--152
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.14948pt too wide) in paragraph at lines 152--153
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 153--154
+[][][][][][][]
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 154--155
+[][][][][][][]
+ []
+
+
+Overfull \hbox (106.09949pt too wide) in paragraph at lines 154--155
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.39966pt too wide) in paragraph at lines 155--156
+[][][][][][][]
+ []
+
+
+Overfull \hbox (91.99951pt too wide) in paragraph at lines 155--156
+[][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 156.
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 156--157
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 157--158
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 158--159
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 159--160
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 160--161
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (585.49866pt too wide) in paragraph at lines 161--162
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 164--165
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 165--166
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.54962pt too wide) in paragraph at lines 166--168
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.94952pt too wide) in paragraph at lines 168--169
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (451.54889pt too wide) in paragraph at lines 169--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (627.79858pt too wide) in paragraph at lines 170--171
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (218.89929pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (289.39917pt too wide) in paragraph at lines 172--173
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[6]
+Overfull \hbox (42.6496pt too wide) in paragraph at lines 173--174
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.99951pt too wide) in paragraph at lines 174--175
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.99951pt too wide) in paragraph at lines 175--176
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.99951pt too wide) in paragraph at lines 176--177
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (373.99902pt too wide) in paragraph at lines 177--178
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49963pt too wide) in paragraph at lines 178--179
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.6496pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (169.54938pt too wide) in paragraph at lines 182--183
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./PHYS333-CoffeeChallenge-3-Huantes.bbl
+Underfull \hbox (badness 1708) in paragraph at lines 4--6
+\OT1/cmr/m/n/12 trans-fer co-ef-fi-cient.  Ac-cessed:
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+ [7
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (./PHYS333-CoffeeChallenge-3-Huantes.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+
+
+Package rerunfilecheck Warning: File `PHYS333-CoffeeChallenge-3-Huantes.out' ha
+s changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PHYS333-CoffeeChallenge-3-Huantes.o
+ut':
+(rerunfilecheck)             Before: 5F486C75962DA10423B910E9DB544690;218
+(rerunfilecheck)             After:  D94527031AB2A0DAC74B8112CA1B8466;264.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
+ ) 
 Here is how much of TeX's memory you used:
- 2264 strings out of 494923
- 31058 string characters out of 6180742
- 89013 words of memory out of 5000000
- 5531 multiletter control sequences out of 15000+600000
- 13730 words of font info for 56 fonts, out of 8000000 for 9000
+ 7637 strings out of 494923
+ 110643 string characters out of 6180742
+ 279562 words of memory out of 5000000
+ 10645 multiletter control sequences out of 15000+600000
+ 14384 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,13n,25p,1150b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/s
-hare/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PHYS333-CoffeeChallenge-3-Huantes.pdf (3 pages, 190192 bytes)
+ 30i,13n,43p,1939b,1822s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on PHYS333-CoffeeChallenge-3-Huantes.pdf (7 pages, 240774 bytes)
 .
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
